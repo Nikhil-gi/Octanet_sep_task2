@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>to-dolist</title>
+  </head>
+  <body>
+    <div class="form">
+      <h1>TO-DO LIST</h1>
+      <form action="" class="tab">
+        <input
+          type="text"
+          placeholder="Write your task lists here..."
+          id="text"
+          required
+        />
+        <select name="priority" id="prior">
+          <option value="High" selected>High Priority</option>
+          <option value="Medium">Medium Priority</option>
+          <option value="Low">Low Priority</option>
+        </select>
+        <input type="date" id="deadline" /> 
+        <input type="Submit" value="Add" id="add" onclick="addTask()" />
+      </form>
+      <h2 align="center">LIST OF WORKS TO DO:</h2>
+      <div class="tasks" id="taskList"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  background-color: rgb(255, 255, 255);
+}
+
+.form h1 {
+  text-align: center;
+  color:white;
+  font-weight: bolder;
+  font-size: 42px;
+}
+
+h2{
+  padding-top: 24px;
+  color: white;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  border-radius: 40px;
+  margin: 0px 400px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+#text {
+  padding: 10px 80px;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+#prior {
+  padding: 10px 40px;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+#deadline {
+  padding: 10px 10px;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+#add{
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+#add:hover{
+  transform: scale(1.1);
+  background-color:lightgreen;
+}
+
+.form button{
+  margin-left: 4px;
+  margin-top: 20px;
+  padding-top: 0;
+border: none;
+background: none;
+}
+
+.form button img{
+  width: 30px;
+}
+
+.form button:hover{
+  transform: scale(1.1);
+}
+
+.tasks {
+  align-items: center;
+  justify-content: center;
+}
+
+.tasks table {
+  text-align: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 14px;
+}
+
+.tasks{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    margin: 0px 40px;
+    border-radius: 20px;
+}
+
+.tasks table{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   
+}
+
+#taskList img{
+  size: 2px;;
+}
+
+#taskList .task-t{
+  font-size: 20px;
+}
+
+#taskList .task-p{
+  font-size: 20px;
+}
+
+#taskList .task-d{
+  font-size: 20px;
+}
+ 
+.task .task-t {
+  font-weight: bold;
+}
+
+.task .task-p {
+  padding-right: 5px;
+  font-weight: bold;
+  color: #3a9731; 
+  margin-bottom: 8px;
+}
+
+.task .task-d {
+  font-weight: bold;
+  color: #e35434;
+  margin-bottom: 8px;
+}
+
+.task .done {
+  text-decoration: line-through;
+  color: #888;
+}
